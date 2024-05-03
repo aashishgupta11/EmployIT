@@ -1,0 +1,135 @@
+.authPage {
+    display: flex;
+    min-width: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    /* background-image: url("../../../public/login-bg.png"); */
+    
+}
+
+.authPage .container {
+    /* flex: 1; */
+    /* width: 7000px; */
+    /* max-width: 500px; */
+    height: 650px;
+   box-sizing: border-box;
+    position: absolute;
+    width: 1000vh;
+    background: #ffffff;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-right: 7%; */
+    /* justify-content: center; */
+    
+  }
+  .authPage .container  .inputTag:hover{
+    /* flex: 1; */
+    /* width: 7000px; */
+    /* max-width: 500px; */
+    
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(6, 49, 114, 0.1);
+    /* margin-right: 7%; */
+    /* justify-content: center; */
+
+  }
+  
+  .authPage .container .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .authPage .container .header h3 {
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  .authPage .container .header img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .authPage .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .authPage .container form .inputTag {
+    margin-bottom: 20px;
+  }
+  
+  .authPage .container form .inputTag div {
+    position: relative;
+  }
+  
+  .authPage .container form .inputTag div input,
+  .authPage .container form .inputTag div select {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .authPage .container form .inputTag div svg {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #777;
+    cursor: pointer;
+  }
+  
+  .authPage .container form button,
+  .authPage .container form a {
+    padding: 12px;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .authPage .container form button {
+    margin-top: 25px;
+    color: #fff;
+    background: #4a90e2; /* Blue color */
+  }
+  
+  .authPage .container form a {
+    color: #4a90e2; /* Blue color */
+    border: 1px solid #4a90e2; /* Blue color */
+  }
+  
+  .authPage .banner {
+    display: none;
+    height:600px;
+    width:100%;
+    margin-right: 500px;
+  }
+  
+  @media (min-width: 831px) {
+    .authPage .banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 2;
+      overflow: hidden;
+    }
+  
+    .authPage .banner img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+    }
+  }
+  
